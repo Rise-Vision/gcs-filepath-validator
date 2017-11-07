@@ -1,0 +1,28 @@
+{
+  "name": "gcs-filepath-validator",
+  "version": "1.0.0",
+  "description": "Validates bucket / object pairs",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint *.js && mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rise-Vision/gcs-filepath-validator.git"
+  },
+  "keywords": [
+    "gcs",
+    "bucket",
+    "object"
+  ],
+  "author": "Tyler Johnson <mail@tyler-johnson.ca> (http://github.com/tejohnso)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Rise-Vision/gcs-filepath-validator/issues"
+  },
+  "homepage": "https://github.com/Rise-Vision/gcs-filepath-validator#readme",
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "mocha": "^4.0.1"
+  }
+}
